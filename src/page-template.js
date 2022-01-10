@@ -58,3 +58,36 @@ const createIntern = intern => {
   `
 }
 
+// generate page data
+generatePage = data => {
+    teamBoxesArr = [];
+  
+    for (let i = 0; i < data.length; i++) {
+      const employee = data[i];
+      const role = employee.getRole(); 
+      console.log(role);
+      
+      if (role === "Manager") {
+        const managerBox = createManager(employee);
+  
+        teamBoxesArr.push(managerBox);
+      }
+  
+      if (role === "Engineer") {
+        const engineerBox = createEngineer(employee);
+  
+        teamBoxesArr.push(engineerBox);
+      }
+  
+      if (role === "Intern") {
+        const internBox = createIntern(employee);
+  
+        teamBoxesArr.push(internBox);
+      }
+    }
+  
+    const teamBoxes = teamBoxesArr.join("");
+  
+    const generateTeam = createTeamHTML(teamBoxes);
+    return generateTeam;
+  }
