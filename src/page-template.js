@@ -1,0 +1,21 @@
+// create manager card
+const createManager = manager => {
+    return `
+      <div class="shadow col-2 flex-column m-2 p-0">
+        <div class="bg-info px-2 pb-1">
+          <h2>${manager.name}</h2>
+          <h3>Manager</h3>
+        </div>
+        <div class="flex-wrap flex-column p-0">
+          <ul class="list-unstyled m-0 p-2">
+            <li class="bg-white border border-dark px-1">ID: ${manager.id}</li>
+            <li class="bg-white border border-dark px-1">Email: ${manager.email}</li>
+            <li class="bg-white border border-dark px-1">Office #: ${manager.officeNumber}</li>
+          </ul>
+        </div>
+      </div>
+    `
+  }
+
+  // create engineer card
+  
