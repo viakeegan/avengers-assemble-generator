@@ -5,6 +5,7 @@ const createManager = manager => {
         <div class="bg-info px-2 pb-1">
           <h2>${manager.name}</h2>
           <h3>Manager</h3>
+          <h4>Manager</h4><i class="material-icons">content_paste</i>
         </div>
 
         <div class="flex-wrap flex-column p-0">
@@ -25,6 +26,7 @@ const createManager = manager => {
         <div class="bg-info px-2 pb-1">
           <h2>${engineer.name}</h2>
           <h3>Engineer</h3>
+          <h4>Engineer</h4><i class="material-icons">laptop_mac</i>
         </div>
 
         <div class="flex-wrap flex-column p-0">
@@ -45,6 +47,7 @@ const createIntern = intern => {
       <div class="bg-info px-2 pb-1">
         <h2>${intern.name}</h2>
         <h3>Intern</h3>
+        <h4>Intern</h4><i class="material-icons">assignment_ind</i>
       </div>
 
       <div class="flex-wrap flex-column p-0">
