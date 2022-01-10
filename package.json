@@ -1,0 +1,32 @@
+{
+    "name": "avengers-assemble-generator",
+    "version": "1.0.0",
+    "description": "team profile generator",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/viakeegan/avengers-assemble-generator"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/viakeegan/avengers-assemble-generator/issues"
+    },
+    "homepage": "https://github.com/viakeegan/avengers-assemble-generator#readme",
+    "devDependencies": {
+      "jest": "^27.3.1"
+    },
+    "directories": {
+      "lib": "lib"
+    },
+    "dependencies": {
+      "inquirer": "^8.2.0"
+    },
+    "keywords": [
+      "TDD",
+      "inquirer"
+    ]
+  }
