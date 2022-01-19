@@ -31,3 +31,8 @@ THEN I exit the application, and the HTML is generated<br />
 
 ## Video Walkthrough
 https://www.youtube.com/watch?v=iYkkKU_U_vc
+
+## Contact
+
+[Email](mailto:viakeegan@gmail.com)<br />
+[GitHub](https://github.com/viakeegan)<br />
